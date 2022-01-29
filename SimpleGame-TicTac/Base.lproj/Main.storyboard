@@ -18,19 +18,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="thR-MC-6oC">
-                                <rect key="frame" x="19" y="283" width="125.5" height="340.5"/>
+                                <rect key="frame" x="40" y="274" width="94" height="358"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqf-zP-sYA">
-                                        <rect key="frame" x="0.0" y="0.0" width="125.5" height="109.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="113"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" imagePlacement="top" title="">
-                                            <imageReference key="image" image="cross.circle.fill" catalog="system" symbolScale="default" renderingMode="hierarchical">
-                                                <hierarchicalColors>
-                                                    <color systemColor="labelColor"/>
-                                                    <color systemColor="secondaryLabelColor"/>
-                                                    <color systemColor="tertiaryLabelColor"/>
-                                                </hierarchicalColors>
-                                            </imageReference>
+                                        <buttonConfiguration key="configuration" style="plain" image="square" catalog="system" title="">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="80"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -38,16 +31,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BM4-Rk-bYV">
-                                        <rect key="frame" x="0.0" y="115.5" width="125.5" height="109.5"/>
+                                        <rect key="frame" x="0.0" y="119" width="94" height="120"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" imagePlacement="top">
-                                            <imageReference key="image" image="cross.fill" catalog="system" symbolScale="default" renderingMode="hierarchical">
-                                                <hierarchicalColors>
-                                                    <color systemColor="labelColor"/>
-                                                    <color systemColor="secondaryLabelColor"/>
-                                                    <color systemColor="tertiaryLabelColor"/>
-                                                </hierarchicalColors>
-                                            </imageReference>
+                                        <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="80"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -55,16 +41,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPh-iI-lDB">
-                                        <rect key="frame" x="0.0" y="231" width="125.5" height="109.5"/>
+                                        <rect key="frame" x="0.0" y="245" width="94" height="113"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" imagePlacement="top">
-                                            <imageReference key="image" image="cross.fill" catalog="system" symbolScale="default" renderingMode="hierarchical">
-                                                <hierarchicalColors>
-                                                    <color systemColor="labelColor"/>
-                                                    <color systemColor="secondaryLabelColor"/>
-                                                    <color systemColor="tertiaryLabelColor"/>
-                                                </hierarchicalColors>
-                                            </imageReference>
+                                        <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="80"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -77,43 +56,29 @@
                                     <constraint firstItem="Rqf-zP-sYA" firstAttribute="top" secondItem="thR-MC-6oC" secondAttribute="top" id="DBo-gF-qzL"/>
                                     <constraint firstItem="BM4-Rk-bYV" firstAttribute="centerY" secondItem="thR-MC-6oC" secondAttribute="centerY" id="Eds-Vn-VpC"/>
                                     <constraint firstItem="BM4-Rk-bYV" firstAttribute="centerX" secondItem="thR-MC-6oC" secondAttribute="centerX" id="cz2-62-Db2"/>
+                                    <constraint firstAttribute="bottom" secondItem="Rqf-zP-sYA" secondAttribute="bottom" constant="245" id="fMt-yr-9vd"/>
                                     <constraint firstAttribute="bottom" secondItem="xPh-iI-lDB" secondAttribute="bottom" id="mpt-2P-GOc"/>
+                                    <constraint firstItem="xPh-iI-lDB" firstAttribute="top" secondItem="thR-MC-6oC" secondAttribute="top" constant="245" id="urE-wa-WNd"/>
                                     <constraint firstItem="xPh-iI-lDB" firstAttribute="centerX" secondItem="thR-MC-6oC" secondAttribute="centerX" id="wTi-6h-ezZ"/>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="EKd-Cy-0fg">
-                                <rect key="frame" x="144.5" y="283" width="125.5" height="340.5"/>
+                                <rect key="frame" x="160" y="274" width="94" height="358"/>
                                 <subviews>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QfB-IQ-MMn">
-                                        <rect key="frame" x="0.0" y="0.0" width="125.5" height="109.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="113"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" imagePlacement="top" title="">
-                                            <imageReference key="image" image="cross.fill" catalog="system" symbolScale="default" renderingMode="hierarchical-single">
-                                                <hierarchicalColors>
-                                                    <color systemColor="labelColor"/>
-                                                    <color systemColor="secondaryLabelColor"/>
-                                                    <color systemColor="tertiaryLabelColor"/>
-                                                </hierarchicalColors>
-                                            </imageReference>
-                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
-                                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
-                                            </preferredSymbolConfiguration>
+                                        <buttonConfiguration key="configuration" style="plain" image="square" catalog="system" title="">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="80"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="actionTic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oTs-zB-WKH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4NL-sC-TSj">
-                                        <rect key="frame" x="0.0" y="115.5" width="125.5" height="109.5"/>
+                                        <rect key="frame" x="0.0" y="119" width="94" height="120"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" imagePlacement="top">
-                                            <imageReference key="image" image="cross.fill" catalog="system" symbolScale="default" renderingMode="hierarchical">
-                                                <hierarchicalColors>
-                                                    <color systemColor="labelColor"/>
-                                                    <color systemColor="secondaryLabelColor"/>
-                                                    <color systemColor="tertiaryLabelColor"/>
-                                                </hierarchicalColors>
-                                            </imageReference>
+                                        <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="80"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -121,16 +86,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EjF-4b-ThR">
-                                        <rect key="frame" x="0.0" y="231" width="125.5" height="109.5"/>
+                                        <rect key="frame" x="0.0" y="245" width="94" height="113"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" imagePlacement="top">
-                                            <imageReference key="image" image="cross.fill" catalog="system" symbolScale="default" renderingMode="hierarchical">
-                                                <hierarchicalColors>
-                                                    <color systemColor="labelColor"/>
-                                                    <color systemColor="secondaryLabelColor"/>
-                                                    <color systemColor="tertiaryLabelColor"/>
-                                                </hierarchicalColors>
-                                            </imageReference>
+                                        <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="80"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -139,28 +97,21 @@
                                     </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="EjF-4b-ThR" firstAttribute="top" secondItem="EKd-Cy-0fg" secondAttribute="top" constant="245" id="1Mg-G4-A2W"/>
                                     <constraint firstItem="4NL-sC-TSj" firstAttribute="centerX" secondItem="EKd-Cy-0fg" secondAttribute="centerX" id="1Yg-yf-Vuq"/>
-                                    <constraint firstItem="QfB-IQ-MMn" firstAttribute="top" secondItem="EKd-Cy-0fg" secondAttribute="top" id="2vT-1L-t3o"/>
                                     <constraint firstItem="QfB-IQ-MMn" firstAttribute="centerX" secondItem="EKd-Cy-0fg" secondAttribute="centerX" id="6xG-gY-3NC"/>
                                     <constraint firstItem="4NL-sC-TSj" firstAttribute="centerY" secondItem="EKd-Cy-0fg" secondAttribute="centerY" id="Yih-f5-KZU"/>
-                                    <constraint firstAttribute="bottom" secondItem="EjF-4b-ThR" secondAttribute="bottom" id="hjI-qX-Fwd"/>
+                                    <constraint firstAttribute="bottom" secondItem="QfB-IQ-MMn" secondAttribute="bottom" constant="245" id="Ykp-1Q-wfk"/>
                                     <constraint firstItem="EjF-4b-ThR" firstAttribute="centerX" secondItem="EKd-Cy-0fg" secondAttribute="centerX" id="upu-mc-smJ"/>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="KaF-m1-SxQ">
-                                <rect key="frame" x="270" y="283" width="125.5" height="340.5"/>
+                                <rect key="frame" x="280" y="274" width="94" height="358"/>
                                 <subviews>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="suS-4E-tX4">
-                                        <rect key="frame" x="0.0" y="0.0" width="125.5" height="109.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="113"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" imagePlacement="top">
-                                            <imageReference key="image" image="cross.fill" catalog="system" symbolScale="default" renderingMode="hierarchical">
-                                                <hierarchicalColors>
-                                                    <color systemColor="labelColor"/>
-                                                    <color systemColor="secondaryLabelColor"/>
-                                                    <color systemColor="tertiaryLabelColor"/>
-                                                </hierarchicalColors>
-                                            </imageReference>
+                                        <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="80"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -168,16 +119,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45L-bJ-F4r">
-                                        <rect key="frame" x="0.0" y="115.5" width="125.5" height="109.5"/>
+                                        <rect key="frame" x="0.0" y="119" width="94" height="120"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" imagePlacement="top">
-                                            <imageReference key="image" image="cross.fill" catalog="system" symbolScale="default" renderingMode="hierarchical">
-                                                <hierarchicalColors>
-                                                    <color systemColor="labelColor"/>
-                                                    <color systemColor="secondaryLabelColor"/>
-                                                    <color systemColor="tertiaryLabelColor"/>
-                                                </hierarchicalColors>
-                                            </imageReference>
+                                        <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="80"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -185,16 +129,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ZZ-NM-b06">
-                                        <rect key="frame" x="0.0" y="231" width="125.5" height="109.5"/>
+                                        <rect key="frame" x="0.0" y="245" width="94" height="113"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" imagePlacement="top">
-                                            <imageReference key="image" image="cross.fill" catalog="system" symbolScale="default" renderingMode="hierarchical">
-                                                <hierarchicalColors>
-                                                    <color systemColor="labelColor"/>
-                                                    <color systemColor="secondaryLabelColor"/>
-                                                    <color systemColor="tertiaryLabelColor"/>
-                                                </hierarchicalColors>
-                                            </imageReference>
+                                        <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="80"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -204,8 +141,10 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="suS-4E-tX4" firstAttribute="top" secondItem="KaF-m1-SxQ" secondAttribute="top" id="2Eh-g2-eQF"/>
+                                    <constraint firstAttribute="bottom" secondItem="suS-4E-tX4" secondAttribute="bottom" constant="245" id="7nM-WZ-XEb"/>
                                     <constraint firstAttribute="bottom" secondItem="2ZZ-NM-b06" secondAttribute="bottom" id="EYe-3E-Hgg"/>
                                     <constraint firstItem="2ZZ-NM-b06" firstAttribute="centerX" secondItem="KaF-m1-SxQ" secondAttribute="centerX" id="GMb-p0-QB8"/>
+                                    <constraint firstItem="2ZZ-NM-b06" firstAttribute="top" secondItem="KaF-m1-SxQ" secondAttribute="top" constant="245" id="Vqn-Cw-zwD"/>
                                     <constraint firstItem="suS-4E-tX4" firstAttribute="centerX" secondItem="KaF-m1-SxQ" secondAttribute="centerX" id="jv5-x8-YeH"/>
                                     <constraint firstItem="45L-bJ-F4r" firstAttribute="centerY" secondItem="KaF-m1-SxQ" secondAttribute="centerY" id="kKd-So-IKx"/>
                                     <constraint firstItem="45L-bJ-F4r" firstAttribute="centerX" secondItem="KaF-m1-SxQ" secondAttribute="centerX" id="nCq-qu-oub"/>
@@ -234,56 +173,85 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yhI-wA-shW">
-                                <rect key="frame" x="0.0" y="722" width="414" height="60"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQl-oc-r2t">
-                                        <rect key="frame" x="0.0" y="0.0" width="207" height="60"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Reset">
-                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htf-Sc-JFn">
-                                        <rect key="frame" x="207" y="0.0" width="207" height="60"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="titleShadowColor" systemColor="secondarySystemFillColor"/>
-                                        </state>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="JQl-oc-r2t" firstAttribute="leading" secondItem="yhI-wA-shW" secondAttribute="leading" id="fb4-4Z-8vs"/>
-                                    <constraint firstItem="Htf-Sc-JFn" firstAttribute="leading" secondItem="yhI-wA-shW" secondAttribute="leading" constant="207" id="lRA-k7-RfT"/>
-                                    <constraint firstAttribute="trailing" secondItem="JQl-oc-r2t" secondAttribute="trailing" constant="207" id="oiJ-vR-D0d"/>
-                                    <constraint firstAttribute="trailing" secondItem="Htf-Sc-JFn" secondAttribute="trailing" id="woC-3w-dHS"/>
-                                </constraints>
-                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQl-oc-r2t">
+                                <rect key="frame" x="40" y="733" width="150" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gOM-M9-quT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gp9-In-FrS">
+                                <rect key="frame" x="50" y="646.5" width="314" height="55.5"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="1" height="2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htf-Sc-JFn">
+                                <rect key="frame" x="229" y="733" width="145" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" systemColor="secondarySystemFillColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="playAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qeL-fU-ejn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="KaF-m1-SxQ" firstAttribute="leading" secondItem="EKd-Cy-0fg" secondAttribute="trailing" id="23c-mB-ovy"/>
+                            <constraint firstItem="EKd-Cy-0fg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="230" id="0Pc-AH-qh5"/>
+                            <constraint firstItem="gp9-In-FrS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="602.5" id="1OP-Iz-NCA"/>
+                            <constraint firstItem="Htf-Sc-JFn" firstAttribute="centerY" secondItem="JQl-oc-r2t" secondAttribute="centerY" id="2ED-f7-34Y"/>
+                            <constraint firstItem="thR-MC-6oC" firstAttribute="top" secondItem="EKd-Cy-0fg" secondAttribute="bottom" constant="-358" id="2R5-x4-sXj"/>
                             <constraint firstItem="dyg-5L-YgM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="3aM-As-zm6"/>
+                            <constraint firstItem="EKd-Cy-0fg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="160" id="3cJ-4P-61n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KaF-m1-SxQ" secondAttribute="bottom" constant="230" id="46W-u3-zBF"/>
                             <constraint firstItem="Sli-Nw-eGK" firstAttribute="firstBaseline" secondItem="dyg-5L-YgM" secondAttribute="firstBaseline" id="9b3-Kh-9q4"/>
                             <constraint firstItem="dyg-5L-YgM" firstAttribute="leading" secondItem="rl9-wU-y4S" secondAttribute="trailing" constant="80" id="9ex-CA-Fx5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="thR-MC-6oC" secondAttribute="trailing" constant="280" id="ANS-mY-Ruk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EKd-Cy-0fg" secondAttribute="trailing" constant="160" id="AkH-z8-S0G"/>
                             <constraint firstItem="thR-MC-6oC" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Dad-HY-G4A"/>
-                            <constraint firstItem="yhI-wA-shW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="EJn-sa-6je"/>
-                            <constraint firstItem="EKd-Cy-0fg" firstAttribute="leading" secondItem="thR-MC-6oC" secondAttribute="trailing" id="J9x-bj-2Jm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JQl-oc-r2t" secondAttribute="trailing" constant="207" id="GCe-AS-dIy"/>
+                            <constraint firstItem="KaF-m1-SxQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="280" id="HGW-H6-hCE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Htf-Sc-JFn" secondAttribute="trailing" id="KCD-4e-c9b"/>
                             <constraint firstItem="Sli-Nw-eGK" firstAttribute="leading" secondItem="dyg-5L-YgM" secondAttribute="trailing" constant="80" id="Ktu-NP-raE"/>
                             <constraint firstItem="dyg-5L-YgM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="LOj-Pv-puo"/>
-                            <constraint firstItem="yhI-wA-shW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PFh-Cy-EMX"/>
                             <constraint firstItem="rl9-wU-y4S" firstAttribute="firstBaseline" secondItem="dyg-5L-YgM" secondAttribute="firstBaseline" id="RaS-ig-mcW"/>
                             <constraint firstItem="EKd-Cy-0fg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Rcj-y5-hDp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yhI-wA-shW" secondAttribute="trailing" id="RuO-z8-RP1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yhI-wA-shW" secondAttribute="bottom" constant="80" id="Vab-Hf-Hyl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Htf-Sc-JFn" secondAttribute="bottom" constant="82" id="T8D-kE-1Fu"/>
+                            <constraint firstItem="gp9-In-FrS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZNn-lo-YwQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EKd-Cy-0fg" secondAttribute="bottom" constant="230" id="ZQa-7B-r3f"/>
+                            <constraint firstItem="KaF-m1-SxQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="230" id="bcZ-AJ-ZYn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="thR-MC-6oC" secondAttribute="bottom" constant="230" id="euw-9a-wFJ"/>
+                            <constraint firstItem="JQl-oc-r2t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="g9E-md-u3Q"/>
+                            <constraint firstItem="gp9-In-FrS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="ggv-aK-1g1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JQl-oc-r2t" secondAttribute="bottom" constant="82" id="ixy-Aw-hh4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gp9-In-FrS" secondAttribute="bottom" constant="160" id="jBv-oB-Weg"/>
                             <constraint firstItem="EKd-Cy-0fg" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="kxn-SP-avv"/>
                             <constraint firstItem="KaF-m1-SxQ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="p5p-Zk-aRe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KaF-m1-SxQ" secondAttribute="trailing" constant="40" id="qQB-Zg-a9F"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gp9-In-FrS" secondAttribute="trailing" constant="50" id="tQi-6z-xZG"/>
+                            <constraint firstItem="thR-MC-6oC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="230" id="vRg-CD-D0l"/>
+                            <constraint firstItem="thR-MC-6oC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="viY-Bu-M0U"/>
+                            <constraint firstItem="Htf-Sc-JFn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="207" id="wJj-5M-8hG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="gp9-In-FrS" id="rVX-pZ-xdx"/>
+                        <outlet property="playAgainButton" destination="Htf-Sc-JFn" id="RpQ-Kf-SKb"/>
+                        <outlet property="playerOne" destination="rl9-wU-y4S" id="ODx-bV-7eW"/>
+                        <outlet property="playerTwo" destination="Sli-Nw-eGK" id="w07-gm-0qb"/>
+                        <outlet property="reset" destination="JQl-oc-r2t" id="T2P-1X-h9p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -291,8 +259,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cross.circle.fill" catalog="system" width="128" height="121"/>
         <image name="cross.fill" catalog="system" width="128" height="116"/>
+        <image name="square" catalog="system" width="128" height="114"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -304,6 +272,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
